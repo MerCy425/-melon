@@ -24,6 +24,8 @@ void DrawMain()
     }
     
     DrawLine(0, -240, 0, 239, kColorRed);
+    
+    DrawLine(0, -220, 0, 220, kColorGreen);
 
     DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
